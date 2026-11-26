@@ -2,12 +2,12 @@
 #define MESH_HPP
 
 #include "types/types.hpp"
-#include "topology/faceInfo.hpp"
-#include "topology/elementInfo.hpp"
+#include "geometry/faceInfo.hpp"
+#include "geometry/elementInfo.hpp"
 #include "logging/logging.hpp"
 #include "allocators/CPUAllocator.hpp"
 #include "field/field.hpp"
-#include "topology/boundaryInfo.hpp"
+#include "geometry/boundaryInfo.hpp"
 
 namespace DG2 {
 

@@ -1,7 +1,7 @@
 #ifndef DG2_JACOBIAN_HPP
 #define DG2_JACOBIAN_HPP
 
-#include "topology/mesh.hpp"
+#include "geometry/mesh.hpp"
 #include "field/field.hpp"
 #include "types/types.hpp"
 #include "maths/vector.hpp"
@@ -22,6 +22,6 @@ constexpr Vector<Scalar, dim> affineMap(const TJacobian j, const TXi xi, const T
 
 } // end of DG2
 
-#include "topology/geometryOps.tpp"
+#include "geometry/geometryOps.tpp"
 
 #endif
