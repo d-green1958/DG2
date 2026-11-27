@@ -1,7 +1,7 @@
-#include "topology/referenceElements/line2.hpp"
+#include "geometry/referenceElements/line2.hpp"
 #include "error/error.hpp"
 #include "field/field.hpp"
-#include "topology/mesh.hpp"
+#include "geometry/mesh.hpp"
 #include "error/error.hpp"
 #include "maths/mathOps.hpp"
 
